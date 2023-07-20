@@ -5,12 +5,7 @@ interface ContenedorProps {
 }
 
 const Contenedor: React.FC<ContenedorProps> = ({ children }) => {
-  return (
-    <div className="p-5">
-      {children}
-    </div>
-  );
+  return <div className="p-5 bg-white">{children}</div>;
 };
 
 export default Contenedor;
-
