@@ -25,7 +25,7 @@ const App = () => {
     console.log("Consultando recomendacion", opt);
     // basado en las respuestas proporcionadas
     const response = await axios.get(
-      "http://scraping.andresgaibor.trade/api/recomendacion",
+      "https://scraping.andresgaibor.trade/api/recomendacion",
       {
         params: opt,
       }
